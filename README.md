@@ -25,7 +25,7 @@ text
 http://localhost:8080
 📁 Структура проекта
 🏗️ Архитектура
-text
+
 coffee-shop/
 ├── src/main/java/com/coffeeshop/
 │   ├── entity/              # Сущности базы данных
@@ -39,6 +39,7 @@ coffee-shop/
 ├── Dockerfile              # Конфигурация Docker
 ├── docker-compose.yml      # Оркестрация контейнеров
 └── pom.xml                # Зависимости Maven
+
 🗃️ Классы и их назначение
 Entity классы (Модели данных)
 1. Product - Товары
