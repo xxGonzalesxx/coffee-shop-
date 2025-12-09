@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  coffee-shop:
+    build: .
+    container_name: coffee-shop-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - TZ=Europe/Moscow
+    # Для разработки можно добавить volume с исходным кодом
+    # volumes:
+    #   - ./src:/app/src
